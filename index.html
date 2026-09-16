@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghifary Ahada Azra — Junior Software Developer</title>
+<meta name="description" content="Portfolio Ghifary Ahada Azra, Informatics graduate interested in software development, desktop applications, Java, Python, and full-stack development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar">
+  <div class="wrap nav-inner">
+    <a href="#home" class="brand">ghifary<span class="dot">.</span>dev</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+    </nav>
+    <a href="#contact" class="nav-cta desktop-only">Contact Me</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero wrap" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">open to junior software developer opportunities</p>
+    <h1>Building practical software with <span class="grad">code &amp; curiosity.</span></h1>
+    <p class="lede">
+      I'm Ghifary Ahada Azra, an Informatics graduate interested in software development.
+      I enjoy building desktop applications, full-stack systems, and tools that solve specific problems.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Contact Me</a>
+    </div>
+    <div class="stack-row">
+      <span class="chip">Python</span>
+      <span class="chip">Java</span>
+      <span class="chip">PySide6</span>
+      <span class="chip">Spring Boot</span>
+      <span class="chip">SQLite</span>
+      <span class="chip">GitHub Actions</span>
+    </div>
+  </div>
+
+  <div class="terminal reveal">
+    <div class="terminal-bar">
+      <span></span><span></span><span></span>
+      <span class="terminal-title">ghifary@portfolio: ~</span>
+    </div>
+    <div class="terminal-body">
+      <div class="line"><span class="prompt">$</span> whoami</div>
+      <div class="line out">ghifary_ahada_azra — junior software developer</div>
+      <div class="line"><span class="prompt">$</span> cat skills.json</div>
+      <div class="line">{</div>
+      <div class="line">&nbsp;&nbsp;<span class="key">"languages"</span>: [<span class="str">"Python"</span>, <span class="str">"Java"</span>, <span class="str">"Kotlin"</span>],</div>
+      <div class="line">&nbsp;&nbsp;<span class="key">"tools"</span>: [<span class="str">"PySide6"</span>, <span class="str">"Spring Boot"</span>, <span class="str">"GitHub Actions"</span>],</div>
+      <div class="line">&nbsp;&nbsp;<span class="key">"status"</span>: <span class="str">"open_to_work"</span></div>
+      <div class="line">}</div>
+      <div class="line"><span class="prompt">$</span> <span id="typed-line"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about wrap reveal" id="about">
+  <div class="about-visual">
+    <div class="avatar-frame">GA</div>
+    <p class="caption">// Ghifary Ahada Azra · Informatics Graduate</p>
+  </div>
+
+  <div class="about-body">
+    <p class="eyebrow">about me</p>
+    <h2 style="font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:18px;">An Informatics graduate who likes building things that actually work.</h2>
+    <p>
+      I recently graduated in <strong>Informatics</strong> and am looking for opportunities to grow as a
+      <strong>Junior Software Developer</strong>. My projects span desktop applications, full-stack web systems,
+      automation, and tools built around specific workflows.
+    </p>
+    <p>
+      I enjoy learning by building: working with <strong>Python</strong> and <strong>PySide6</strong> for desktop software,
+      <strong>Java &amp; Spring Boot</strong> for full-stack applications, and <strong>Git/GitHub Actions</strong> for version control and CI/CD.
+    </p>
+
+    <div class="skill-groups">
+      <div class="skill-card">
+        <h4>// languages</h4>
+        <ul><li>Python</li><li>Java</li><li>Kotlin</li><li>JavaScript</li><li>SQL</li></ul>
+      </div>
+      <div class="skill-card">
+        <h4>// frameworks &amp; libraries</h4>
+        <ul><li>PySide6</li><li>Spring Boot</li>
+      </div>
+      <div class="skill-card">
+        <h4>// database &amp; tools</h4>
+        <ul><li>SQLite</li><li>MySQL</li><li>Git</li><li>GitHub</li><li>Postman</li><li>PyInstaller</li></ul>
+      </div>
+      <div class="skill-card">
+        <h4>// engineering</h4>
+        <ul><li>REST API</li><li>CI/CD</li><li>GitHub Actions</li><li>Desktop Apps</li><li>File Parsing</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section wrap" id="projects">
+  <div class="section-head reveal">
+    <p class="eyebrow">selected projects</p>
+    <h2>Projects I have built</h2>
+    <p>A selection of personal, academic, and training projects covering desktop software, full-stack development, and mobile applications.</p>
+  </div>
+
+  <div class="projects-grid">
+
+    <article class="project-card reveal">
+      <div class="project-thumb">
+        <img src="img/ch_music_player.png" alt="CH Music Player interface screenshot">
+      </div>
+      <div class="project-body">
+        <h3>
+          <a href="https://github.com/MasterThe8" target="_blank" rel="noopener">
+            CH Music Player ↗
+          </a>
+        </h3>
+        <p>A desktop application for managing Clone Hero songs, charts, lyrics, and audio playback, with an emphasis on practical tooling and workflow.</p>
+        <div class="tag-row">
+          <span>Python</span>
+          <span>PySide6</span>
+          <span>SQLite</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-thumb">
+        <img src="img/elje.jpg" alt="eLJe Chart Lyric Editor screenshot">
+      </div>
+      <div class="project-body">
+        <h3>
+          <a href="https://github.com/MasterThe8/eLJe-LyricJutsuEditor" target="_blank" rel="noopener">
+            eLJe — Chart Lyric Editor ↗
+          </a>
+        </h3>
+        <p>A specialized editor for Clone Hero chart lyrics, designed to make lyric editing and formatting faster and more convenient.</p>
+        <div class="tag-row">
+          <span>Python</span>
+          <span>Qt</span>
+          <span>Chart Parsing</span>
+          <span>Desktop App</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-thumb">
+        <img src="img/smart_bookstore.jpg" alt="Smart Bookstore dashboard screenshot">
+      </div>
+      <div class="project-body">
+        <h3>
+          <a href="https://github.com/MasterThe8/Aplikasi-Toko-Buku-Online-Menggunakan-Spring-Boot" target="_blank" rel="noopener">
+            Smart Bookstore ↗
+          </a>
+        </h3>
+        <p>Full-stack online bookstore developed during the MSIB Full Stack Java Developer program at Metrodata Academy. Team project; I handled the majority of the implementation.</p>
+        <div class="tag-row">
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>REST API</span>
+          <span>Database</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-thumb">
+        <img src="img/uangku.jpeg" alt="Uangku mobile application screenshot">
+      </div>
+      <div class="project-body">
+        <h3>
+          <a href="https://github.com/MasterThe8/Uangku" target="_blank" rel="noopener">
+            Uangku ↗
+          </a>
+        </h3>
+        <p>A personal finance application project focused on recording and managing everyday income and expenses.</p>
+        <div class="tag-row">
+          <span>Kotlin</span>
+          <span>Android</span>
+          <span>Gradle</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- ============ CONTACT ============ -->
+<section class="section wrap" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">contact</p>
+    <h2>Let’s connect</h2>
+    <p>I am currently open to junior software development opportunities and entry-level roles where I can continue learning and contribute to real projects.</p>
+  </div>
+
+  <div class="contact-inner">
+    <div class="contact-info reveal">
+      <p>The easiest way to reach me is through GitHub or LinkedIn. You can also add your preferred email address below.</p>
+      <ul class="info-list">
+        <li><span class="info-ico">◎</span> <a href="https://github.com/MasterThe8" target="_blank" rel="noopener">github.com/MasterThe8</a></li>
+        <li><span class="info-ico">in</span> <a href="#" target="_blank" rel="noopener">LinkedIn — add your profile</a></li>
+        <li><span class="info-ico">@</span> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      </ul>
+    </div>
+
+    <div class="form-card reveal">
+      <p class="eyebrow">quick links</p>
+      <h3 style="font-size:1.35rem; margin-bottom:12px;">Want to see more?</h3>
+      <p style="color:var(--text-dim); margin-bottom:22px;">Browse my repositories and project source code on GitHub, or connect with me on LinkedIn.</p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="https://github.com/MasterThe8" target="_blank" rel="noopener" class="btn btn-primary">GitHub ↗</a>
+        <a href="#" class="btn btn-ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Ghifary Ahada Azra. Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="social-row">
+      <a href="https://github.com/MasterThe8" target="_blank" rel="noopener" aria-label="GitHub">◎</a>
+      <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <a href="mailto:your.email@example.com" aria-label="Email">@</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
